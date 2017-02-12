@@ -1,12 +1,17 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v2">
-  <prescription type="service">
+  <prescription type="service" sender="com.baidu.searchbox, com.baidu.BaiduMap, com.ting.mp3.android">
     <intent-filter>
       <action name="com.xiaomi.mipush.sdk.WAKEUP" />
     </intent-filter>
   </prescription>
-  <prescription type="broadcast"><!-- Fabricated for test purpose -->
+  <prescription type="broadcast" sender="any"><!-- Fabricated for test purpose -->
     <intent-filter>
       <action name="com.xiaomi.mipush.sdk.test.WAKEUP" />
+    </intent-filter>
+  </prescription>
+  <prescription type="activity" sender="other"><!-- Fabricated for test purpose -->
+    <intent-filter>
+      <action name="com.xiaomi.mipush.sdk.test.UI" />
     </intent-filter>
   </prescription>
 </prescriptions>
