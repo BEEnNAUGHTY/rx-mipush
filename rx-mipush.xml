@@ -12,6 +12,6 @@
   <prescription type="activity" sender="other"><!-- Fabricated for test purpose -->
     <intent-filter>
       <action name="com.xiaomi.mipush.sdk.test.UI" />
-    </intent-filter>
+    <intent-filter>
   </prescription>
 </prescriptions>
